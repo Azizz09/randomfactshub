@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RandomFactsHub - Infinite Facts Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="sidebar-overlay"></div>
+    <div id="sidebar">
+        <div class="sidebar-header">
+            <div id="site-logo-sidebar">
+                <h2>
+                    <i class="fas fa-question-circle logo-icon"></i>
+                    <span class="brand-text">RandomFacts<span class="brand-hub">Hub</span></span>
+                </h2>
+            </div>
+            <div class="close-btn">&times;</div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Social Media</h3>
+            <a href="https://www.instagram.com/azizztasci9/" target="_blank" class="sidebar-link">
+                <i class="fab fa-instagram"></i> Instagram 
+            </a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Feedback</h3>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=azthrox9@gmail.com" target="_blank" class="sidebar-link">
+                <i class="fas fa-envelope"></i> Feedback & Email
+            </a>
+        </div>
+    </div>
+
+    <header class="header-section">
+        <nav class="top-nav">
+            <div class="logo" id="site-logo">
+                <h2>
+                    <i class="fas fa-question-circle logo-icon"></i>
+                    <span class="brand-text">RandomFacts<span class="brand-hub">Hub</span></span>
+                </h2>
+            </div>
+            <div class="menu-icon" id="menu-trigger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+        <div class="search-area">
+            <div class="search-wrapper">
+                <span class="search-icon"><i class="fas fa-search"></i></span>
+                <input type="text" id="category-search" list="category-suggestions" placeholder="Search 200+ categories...">
+                <datalist id="category-suggestions">
+                    <option value="Acoustics"><option value="Aerodynamics"><option value="Aeronautics"><option value="Aesthetics"><option value="Agriculture"><option value="Alchemy"><option value="Algae"><option value="Algebra"><option value="Algorithms"><option value="Anatomy"><option value="Ancient Egypt"><option value="Ancient Greece"><option value="Ancient Rome"><option value="Animal Behavior"><option value="Animal Intelligence"><option value="Animation History"><option value="Anthropology"><option value="Archaeology"><option value="Architecture"><option value="Art History"><option value="Artificial Intelligence"><option value="Astrobiology"><option value="Astrology History"><option value="Astronautics"><option value="Astronomy"><option value="Astrophysics"><option value="Atmospheric Science"><option value="Atomic Physics"><option value="Automotive Engineering"><option value="Aviation"><option value="Bacteriology"><option value="Ballistics"><option value="Beekeeping"><option value="Behavioral Economics"><option value="Behavioral Psychology"><option value="Biochemistry"><option value="Bioethics"><option value="Biology"><option value="Biomechanics"><option value="Biotechnology"><option value="Black Holes"><option value="Blockchain & Crypto"><option value="Board Games History"><option value="Botany"><option value="Business Strategy"><option value="Byzantine History"><option value="Camping & Survival"><option value="Cartography"><option value="Cat Psychology"><option value="Celestial Mechanics"><option value="Chemistry"><option value="Chess History"><option value="Cinema Theory"><option value="Classical Music"><option value="Climate Change"><option value="Cognitive Science"><option value="Cold War History"><option value="Coffee Culture"><option value="Combinatorics"><option value="Comparative Religion"><option value="Computer Science"><option value="Cosmology"><option value="Criminology"><option value="Cryptids"><option value="Cryptography"><option value="Cryptozoology"><option value="Cultural Heritage"><option value="Cybersecurity"><option value="Dark Matter"><option value="Deep Sea"><option value="Demography"><option value="Dermatology"><option value="Digital Culture"><option value="Dinosaurs"><option value="Disaster Relief"><option value="Dog Breeds"><option value="Drones & UAVs"><option value="Earthquakes"><option value="Ecology"><option value="Economics"><option value="Egyptology"><option value="Electromagnetism"><option value="Endocrinology"><option value="Engineering"><option value="Entomology"><option value="Environmental Science"><option value="Epidemiology"><option value="E-sports"><option value="Ethics"><option value="Ethology"><option value="Etymology"><option value="Evolutionary Biology"><option value="Exoplanets"><option value="Fashion History"><option value="Finance"><option value="Fluid Dynamics"><option value="Folklor"><option value="Food Science"><option value="Forensic Science"><option value="Fungi"><option value="Futurism"><option value="Galaxies & Nebulas"><option value="Game Theory"><option value="Gaming Technology"><option value="Gastronomy"><option value="Genealogy"><option value="Genetics"><option value="Geography"><option value="Geology"><option value="Geophysics"><option value="Glaciology"><option value="Gothic Architecture"><option value="Graphic Design History"><option value="Heraldry"><option value="Herpetology"><option value="History"><option value="Horology"><option value="Human Anatomy"><option value="Human Mind"><option value="Hydrology"><option value="Ichthyology"><option value="Immunology"><option value="Industrial Design"><option value="Industrial Revolution"><option value="Inorganic Chemistry"><option value="Insects"><option value="Internet History"><option value="Inventions"><option value="Japanese History"><option value="Journalism"><option value="Justice"><option value="Kinematics"><option value="Language"><option value="Lexicography"><option value="Limnology"><option value="Linguistics"><option value="Literature"><option value="Logistics"><option value="Machine Learning"><option value="Marine Biology"><option value="Material Science"><option value="Mathematics"><option value="Mechanics"><option value="Medicine"><option value="Medieval History"><option value="Mental Health"><option value="Meteorology"><option value="Microbiology"><option value="Microscopy"><option value="Military Tactics"><option value="Mineralogy"><option value="Molecular Biology"><option value="Music Theory"><option value="Mythology"><option value="Nanotechnology"><option value="National Flags"><option value="Natural Disasters"><option value="Nature"><option value="Neuroscience"><option value="Nuclear Physics"><option value="Numismatics"><option value="Nutrition"><option value="Oceanography"><option value="Optics & Light"><option value="Organic Chemistry"><option value="Ornithology"><option value="Ottoman History"><option value="Paleontology"><option value="Particle Physics"><option value="Philosophy"><option value="Photography Science"><option value="Physics"><option value="Physiology"><option value="Political Science"><option value="Psychology"><option value="Quantum Computing"><option value="Quantum Physics"><option value="Radiology"><option value="Renaissance"><option value="Renewable Energy"><option value="Robotics"><option value="Roman Empire"><option value="Samurai Culture"><option value="Seismology"><option value="Semiotics"><option value="Social Media History"><option value="Sociology"><option value="Software Engineering"><option value="Space Exploration"><option value="Space Tourism"><option value="Sports Science"><option value="Statistics"><option value="Sustainability"><option value="Taxidermy"><option value="Technology"><option value="Theoretical Physics"><option value="Thermodynamics"><option value="Toxicology"><option value="Transportation"><option value="Ufology"><option value="Universe"><option value="Urban Legends"><option value="Veterinary Science"><option value="Viking Age"><option value="Virology"><option value="Viticulture"><option value="Volcanology"><option value="Warfare"><option value="Weather"><option value="Wildlife Conservation"><option value="World Religions"><option value="Writing"><option value="Xenobiology"><option value="Xylology"><option value="Yoga"><option value="Zoology">
+                </datalist>
+            </div>
+            <div id="selection-status">Selected: ALL</div>
+            <div id="active-badges"></div>
+        </div>
+        <div class="main-divider"></div>
+    </header>
+
+    <main class="main-content">
+        <div class="theme-bar">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round">
+                    <span class="icon-sun"><i class="fas fa-sun"></i></span>
+                    <span class="icon-moon"><i class="fas fa-moon"></i></span>
+                </div>
+            </label>
+        </div>
+        
+        <div id="content-container">
+            <div id="fact-category" style="display: none;"></div> 
+            
+            <h1 id="fact-title">Welcome!</h1> 
+            
+            <div id="image-area" style="display: none;">
+                <img id="fact-image" src="" alt="Fact Image">
+            </div>
+            
+            <div id="text-area">
+                <p id="fact-text">Click the button below to discover interesting facts about more than 200+ categories!</p>
+            </div>
+        </div>
+
+        <div class="action-container">
+            <button id="action-btn">ENLIGHTEN ME</button>
+            <div class="extra-buttons">
+                <button id="speak-btn"><i class="fas fa-volume-up"></i></button>
+                <button id="share-btn"><i class="fas fa-share-alt"></i></button>
+                <button id="copy-btn">Copy Text</button>
+            </div>
+        </div>
+
+        <div class="category-archive">
+            <h3>Browse by Category (A-Z)</h3>
+            <div id="category-list" class="category-grid"></div>
+        </div>
+
+        <div id="category-detail-view" style="display:none;">
+            <div class="detail-header">
+                <h1 id="selected-cat-title">Category</h1>
+                <button id="back-to-main" class="back-btn">← Back</button>
+            </div>
+            <div id="cat-facts-container"></div>
+        </div>
+    </main>
+
+    <footer class="footer-area">
+        <div class="legal-box">
+            <div class="footer-brand">RandomFactsHub &copy; 2026</div>
+            <div class="disclaimer-box">
+                <p>
+                    <i class="fas fa-shield-alt"></i> 
+                    <strong>DISCLAIMER:</strong> The content provided on this platform is curated using artificial intelligence and various digital data sources for general knowledge and entertainment purposes only. We do not guarantee the absolute accuracy, completeness, or timeliness of the information presented.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // SIDEBAR KONTROLÜ (SAĞDAN AÇILIR)
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('sidebar-overlay');
+        const trigger = document.getElementById('menu-trigger');
+        const closeBtn = document.querySelector('.close-btn');
+
+        trigger.addEventListener('click', () => {
+            sidebar.classList.add('active');
+            overlay.classList.add('active');
+        });
+
+        const closeSidebar = () => {
+            sidebar.classList.remove('active');
+            overlay.classList.remove('active');
+        };
+
+        closeBtn.addEventListener('click', closeSidebar);
+        overlay.addEventListener('click', closeSidebar);
+    </script>
+</body>
+</html>
