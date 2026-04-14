@@ -131,7 +131,7 @@ actionBtn.addEventListener('click', () => {
                 setTimeout(() => copyBtn.innerText = "Copy Text", 2000);
             };
         }
-        actionBtn.innerText = "GIVE ME A FACT";
+        actionBtn.innerText = "ENLIGHTEN ME";
         actionBtn.disabled = false;
     }, 400);
 });
